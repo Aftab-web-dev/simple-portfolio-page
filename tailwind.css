@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body{
+        @apply bg-black;
+    }
+    li{
+        @apply hover:text-white
+    }
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    color: rgb(184, 184, 184);
+}
+@media screen {
+    .navbar{
+
+    }
+    
+}
+.color{
+    color: rgb(184, 184, 184);
+}
+
+.font{
+    font-family: 'Nuosu SIL', serif;
+}
